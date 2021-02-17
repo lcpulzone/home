@@ -9,6 +9,7 @@ class RenterTest < Minitest::Test
   end
 
   def test_it_has_a_name
+    # skip
     jessie = Renter.new("Jessie")
     assert_equal "Jessie", jessie.name
   end
